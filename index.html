@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/profile.jpg" />
+  <title>Taran Chauhan Web Portfolio</title>
+  <meta name="description" content="">
+  <meta name="author" content="Taran Chauhan">
+  <meta name="keywords" content="React, Landing page, Portfolio template, Bootstrap template, Responsive html5 template">
+  <link rel="stylesheet" href="css/styles.min.css" id="css-main">
+  <!-- Generated from https://cdn.fontawesome.com/ with Embed code-->
+  <script src="https://use.fontawesome.com/aa6a4f2c1e.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- preloader -->
+  <div id="preloader">
+    <div class="sk-wave">
+      <div class="sk-rect sk-rect1"></div>
+      <div class="sk-rect sk-rect2"></div>
+      <div class="sk-rect sk-rect3"></div>
+      <div class="sk-rect sk-rect4"></div>
+      <div class="sk-rect sk-rect5"></div>
+    </div>
+  </div>
+  <!-- preloader end -->
+  <header class="container-fluid sdm-bg" id="home">
+    <div class="row">
+      <div class="overlay"></div>
+      <!-- main menu -->
+      <ul class="nav nav-pills menu-center margin-top-30 scroll-nav">
+        <li role="presentation" class="active"><a href="#home"><i class="fa fa-home"></i></a></li>
+        <li role="presentation"><a href="#portfolio">Portfolio</a></li>
+        <li role="presentation"><a href="#reviews">Reviews</a></li>
+        <li role="presentation"><a href="#about_me">About</a></li>
+        <li role="presentation"><a href="#expertness">Services</a></li>
+        <li role="presentation"><a href="#contact_me">Contact</a></li>
+      </ul>
+      <!-- main menu end -->
+      <img src="images/profile.jpg" class="margin-top-76 img-circle center-block profile_picture" alt="profile picture">
+      <h1 class="text-capitalize text-center">Taran Chauhan</h1>
+      <h3 class="text-capitalize text-center">Full Stack Developer</h3>
+      <hr />
+      <div class="text-center margin-bottom-135">
+        <ul class="social-networks spin-icon">
+          <li><a href="https://www.linkedin.com/in/taranchauhan" class="icon-linkedin">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="container position-relative" id="portfolio">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 position-absolute">
+        <div class="text-center filter-btns">
+          <!-- filter btn -->
+          <ul class="nav nav-pills">
+            <li role="presentation">
+              <a href="javascript:void(0)" id="all" class="btn" data-mixitup-control data-filter="all">All</a>
+            </li>
+            <li role="presentation">
+              <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".web">Web</a>
+            </li>
+            <li role="presentation">
+              <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".android">Android</a>
+            </li>
+            <li role="presentation">
+              <a href="javascript:void(0)" class="btn" data-mixitup-control data-filter=".ios">iOS</a>
+            </li>
+          </ul>
+          <!-- filter btn end-->
+        </div>
+
+        <!-- mixitup container -->
+        <div class="row" id="mix-wrapper">
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web android ios" data-order="1">
+              <figure>
+                <img width="741" height="740" src="images/portfolio/hiup.jpg" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#hiupModal">
+                    <h3>HiUp</h3>
+                    <hr>
+                    <p>React, Android, iOS, Node JS, AWS, Ansible,PostgreSQL</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/air-bp.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#airBpModal">
+                    <h3>Air BP</h3>
+                    <hr>
+                    <p>React, Angular, Angular JS, Node JS, Mongo, SQL</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/angular-toh-ngrx.jpg" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#angularTohModal">
+                    <h3>Angular Tour of heroes ngrx example</h3>
+                    <hr>
+                    <p>Angular, ngrx</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/bp.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#bpModal">
+                    <h3>BP</h3>
+                    <hr>
+                    <p>React, Node, Mongo, Watson CMS</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/castrol.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#castrolModal">
+                    <h3>Castrol</h3>
+                    <hr>
+                    <p>HTML, CSS, SAML SSO</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/gov-uk.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#govUkModal">
+                    <h3>GOV UK</h3>
+                    <hr>
+                    <p>React, Redux, Nginx, Node.js</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web data-order=" 1">
+              <figure>
+                <img src="images/portfolio/govuk-react.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#govUkReactModal">
+                    <h3>GOV UK Design system component library</h3>
+                    <hr>
+                    <p>React</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/govuk-frederic.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#govUkFredericModal">
+                    <h3>GOV UK Project component library</h3>
+                    <hr>
+                    <p>React</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/nexcel.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#nexcelModal">
+                    <h3>Nexcel</h3>
+                    <hr>
+                    <p>React, Node, Contentful CMS, AWS Elastic Beanstalk</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/oil_selector.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#oilSelectorModal">
+                    <h3>Castrol Oil Selector</h3>
+                    <hr>
+                    <p>Angular JS, Java, SQL</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/react-best-practices.jpg" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#reactAsyncModal">
+                    <h3>React 16 Async loading example</h3>
+                    <hr>
+                    <p>React, Redux</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div id="effect-5">
+            <div class="col-md-4 col-sm-6 col-xs-6 mix-target web" data-order="1">
+              <figure>
+                <img src="images/portfolio/videocall-barclays.png" alt="">
+                <figcaption>
+                  <a href="#" data-toggle="modal" data-target="#bvbModal">
+                    <h3>Barclays Video Banking</h3>
+                    <hr>
+                    <p>Angular</p>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+        </div>
+        <!-- mixitup container end -->
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid sdm-bg" id="reviews">
+    <div class="row">
+      <div class="overlay"></div>
+      <!-- testimonials slider -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" data-wow-delay="0.2s">
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+              <!-- Bottom Carousel Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="images/ibm.png"
+                    alt="">
+                </li>
+                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="images/ibm.png"
+                    alt="">
+                </li>
+                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="images/ibm.png"
+                    alt="">
+                </li>
+                <li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive" src="images/ibm.png"
+                    alt="">
+                </li>
+              </ol>
+
+              <!-- Carousel Slides / Quotes -->
+              <div class="carousel-inner text-center">
+
+                <!-- Quote 1 -->
+                <div class="item active">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+
+                        <p>Tarandeep has been a pleasure to manage and work with. He integrated with the team very well
+                          and was productive within a short period of time despite an extremely steep learning curve.</p>
+                        <p>He was prepared to tackle any task with enthusiasm (and always with good humour). I am very
+                          sorry to lose Tarandeep from the team. He is a real hard worker who simply 'got things done.'
+                          I would welcome him back to the team (or IBM generally).</p>
+                        <small>Nick Plumb - Project Manager</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- Quote 2 -->
+                <div class="item">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+
+                        <p>Taz is an absolute superstar performing far beyond his IBM banding. He is technically
+                          exceptional and has a fantastic approach to managing client relationships. I cannot speak
+                          highly enough of Taz, he has been the star performer on the Air BP account. In comparison to
+                          everybody else, he is the one person that I would say is the highest performer.</p>
+                        <p>Thank you so much Taz and I wish you every success in the future - not that you need my best
+                          wishes, you will do that regardless!</p>
+                        <small>Steven Creighton - Technical Architect</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- Quote 3 -->
+                <div class="item">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+
+                        <p>Whilst working on the Digital@BP Hub, the build of a collaboration site for the BP
+                          client/account. Taz naturally assumed the position of Lead Developer. Leading a team that
+                          fluctuated in size between 3-5 devs at any one point. Taz was able to set tasks for the team
+                          within certain timelines and then lead the team to ensure they delivered those tasks. The
+                          site has now been built and is being used by our clients daily and has been demoed throughout
+                          the iX landscape and to various clients.<p>
+                            <p>Not only did Taz develop himself on this project, learning lots of new coding languages
+                              and platform expertise. He also helped develop others, teaching new interns and grads the
+                              basics of development principles and the specifics they needed to thrive on this project.
+                              Taz was a very popular member of the team and a pleasure to work with.</p>
+                            <small>Mat Dawson - Project Manager</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- Quote 4 -->
+                <div class="item">
+                  <blockquote>
+                    <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+
+                        <p>Taz delivers to a consistently high standard above expectation –beyond what I expect for his
+                          band.</p>
+                        <p>He is committed to client success and has gone above and beyond to deliver. This is shown
+                          through his work on Castrol Oil Selector, and on Nexcel to name just two examples. His work
+                          overtime when needed and his support of colleagues to ensure client success – he is an asset
+                          to any team.</p>
+                        <p>Taz has added significant value and has been directly responsible for client success.</p>
+                        <small>Sarah Hughes - Project Manager</small>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+
+              <!-- Carousel Buttons Next/Prev -->
+              <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-angle-left fa-2x"></i></a>
+              <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-angle-right fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- testimonials slider end -->
+    </div>
+  </section>
+  <section class="container" id="about_me">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 col-sm-12">
+        <div class="row">
+          <div class="col-md-5 col-sm-4 col-xs-12">
+            <h3><i class="fa fa-user"></i>About me</h3>
+            <div class="block">
+              <p>
+                As an ambitious Full Stack Developer, I have demonstrated proven experience working on key enterprise
+                projects such as the release of IBM MQ V8.0 and the development of UX focused responsive web apps and
+                scalable back end API’s.
+              </p>
+
+              <p>
+                I thrive most when working alongside a team of ambitious developers and believe that efficient
+                communication and commitment is the pivotal factor to business success.
+              </p>
+
+              <p>
+                Whilst working for large organisations such as IBM and Accenture, I have developed my technical impetus
+                as a Senior JavaScript Developer utilising framework such as Angular, React and Node.js, whilst
+                enhancing leadership, adaptability and motivational skills.
+              </p>
+              <p>
+                In an environment where small margins can make a huge difference, I see pressure as an opportunity for
+                personal improvement. An eventual dream of mine is to work as a technical architect, bringing my
+                ability to think out of the box and to motivate colleagues with my enthusiastic approach for tackling
+                challenges.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-4 col-xs-6">
+            <h3><i class="fa fa-building"></i>Work history</h3>
+            <div class="block">
+              <h4>Application Developer</h4>
+              <ul class="icon-list">
+                <li><i class="fa fa-building"></i>IBM</li>
+                <li><i class="fa fa-clock-o"></i>May 2017 - Present</li>
+              </ul>
+            </div>
+            <div class="block">
+              <h4> Full Stack Developer</h4>
+              <ul class="icon-list">
+                <li><i class="fa fa-building"></i>Dev2Rights</li>
+                <li><i class="fa fa-clock-o"></i>September 2016 - May 2017</li>
+              </ul>
+            </div>
+            <div class="block">
+              <h4>Software Engineer</h4>
+              <ul class="icon-list">
+                <li><i class="fa fa-building"></i>Accenture</li>
+                <li><i class="fa fa-clock-o"></i>August 2015 - April 2016</li>
+              </ul>
+            </div>
+            <div class="block">
+              <h4>Software Developer</h4>
+              <ul class="icon-list">
+                <li><i class="fa fa-building"></i>IBM</li>
+                <li><i class="fa fa-clock-o"></i>June 2013 - June 2014</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-6">
+            <h3><i class="fa fa-graduation-cap"></i>Education</h3>
+            <div class="block">
+              <h4>Aston University</h4>
+              <ul class="icon-list">
+                <li><i class="fa fa-book"></i>1st BSc - Computer Science </li>
+                <li><i class="fa fa-clock-o"></i>October 2011 - July 2015</li>
+              </ul>
+            </div>
+            <div class="block">
+              <h4>Wood Green Academy</h4>
+              <ul class="icon-list">
+                <li><i class="fa fa-book"></i>A Level’s - IT (A), Media (B), Psychology (B)</li>
+                <li><i class="fa fa-clock-o"></i>September 2009 - June 2011</li>
+              </ul>
+            </div>
+            <div class="block">
+              <h4>Wood Green Academy</h4>
+              <ul class="icon-list">
+                <li><i class="fa fa-book"></i>GCSE’s - IT (A), English (A*), Maths (A), Science (A* A), French (A),
+                  Media (A* A), English Literature (A)</li>
+                <li><i class="fa fa-clock-o"></i>September 2004 - June 2009</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid sdm-bg" id="expertness">
+    <div class="row">
+      <div class="overlay"></div>
+      <div class="col-sm-12">
+        <h3 class="text-center"><i class="fa fa-bookmark"></i>What I Do</h3>
+      </div>
+    </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-jsfiddle fa-3x"></i>
+            <h4 class="text-uppercase">React</h4>
+            <p>
+              I have been developing full stack React applications for over 3 years with Redux state management and
+              unit testing in Jest.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-codepen fa-3x"></i>
+            <h4 class="text-uppercase">Angular</h4>
+            <p>
+              I have used both Angular & Angular JS to build enterprise web applications for the last 2 years.
+              Experience with Angular universal for application shell.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-magic fa-3x"></i>
+            <h4 class="text-uppercase">Node.js</h4>
+            <p>
+              Worked with Node.JS extensively to build RESTful Web API's. I have used both a hosted Express server and
+              AWS microservices with Lambda and API gateway at scale. Implemented app authentication with PassportJS
+              and middleware.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-cloud fa-3x"></i>
+            <h4 class="text-uppercase">Dev Ops & Cloud</h4>
+            <p>
+              Used Ansible to deploy a serverless Lambda microservice back end to AWS API gateway. Used tools such as
+              Travis, GitLab and BitBucket CI to develop pipelines for build environments in order to enable continuous
+              delivery and integration of web applications.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-database fa-3x"></i>
+            <h4 class="text-uppercase">Databases & Cache</h4>
+            <p>
+              Architectured and built both relational (SQL Server, PostgreSQL, MySQL), NoSQL (Mongo) and Caches (Redis)
+              designed to scale. Experience with database indexing and performance optimisation.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-code fa-3x"></i>
+            <h4 class="text-uppercase">HTML, CSS and JavaScript</h4>
+            <p>
+              Extensive experience with building full stack web applications using HTML, CSS and JavaScript. Key
+              focuses include browser compatiblity and responsive web design. Use CSS-in-JS with Styled components for
+              React and SASS with Angular. Webpack bundler and NPM package manager are preferred tools of choice.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-check fa-3x"></i>
+            <h4 class="text-uppercase">Testing</h4>
+            <p>
+              Experience with load testing using Gatlin for API throttling, Selenium browser testing using BrowserStack
+              for cross-browser compatibility, TDD with Jest and Cucumber for BDD.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-users fa-3x"></i>
+            <h4 class="text-uppercase">Agile</h4>
+            <p>
+              Ways of working include Agile processes such as SCRUM using tools like JIRA for project management and
+              working in sprints during project delivery. Planning poker used for sprint planning and worked under SAFE
+              framework.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="block">
+            <i class="fa fa-server fa-3x"></i>
+            <h4 class="text-uppercase">PHP and Java</h4>
+            <p>
+              Previous experience includes using Java and PHP to build web applications with MVC frameworks such as
+              Spring and Laravel.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="container" id="hire_me">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h3>Availability</h3>
+        <h4><i class="fa fa-thumbs-up fa-2x"></i> I am currently available for roles.</h4>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid sdm-bg" id="contact_me">
+    <div class="row">
+      <div class="overlay"></div>
+      <div class="col-sm-12 text-center text-capitalize">
+        <h3>want to get in contact?</h3>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <section class="col-sm-10 col-sm-offset-1">
+
+        <div class="row text-center">
+          <div class="col-xs-12 col-sm-6">
+            <div class="block">
+              <i class="fa fa-envelope fa-2x"></i>
+              <h4 class="text-uppercase">Email</h4>
+              <ul class="list-unstyled">
+                <li>taran.chauhan@hotmail.com</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <div class="block">
+              <i class="fa fa-phone fa-2x"></i>
+              <h4 class="text-uppercase">Phone</h4>
+              <ul class="list-unstyled">
+                <li>+447941044650</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </form>
+
+        <div class="text-center row">
+          <div class="col-sm-12">
+            <ul class="social-networks spin-icon">
+              <li><a href="https://www.linkedin.com/in/taranchauhan" class="icon-linkedin">LinkedIn</a></li>
+            </ul>
+            <p class="text-center margin-top-30">
+              &copy Copyright 2018 <a href="#">Taran Chauhan Portfolio</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- hiupModal -->
+  <div class="modal fade" id="hiupModal" tabindex="-1" role="dialog" aria-labelledby="hiupModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hiupModalLabel"><a href="https://hiupapp.com">HiUp Android iOS App</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>HiUp is an iOS and Android app that provides an online learning portal to get the qualifications for the
+            job you need.</p>
+          <p>The app can then be used to apply for thousands of jobs in multiple industries.</p>
+          <p>I implemented the web app for the main administration panel in HTML, CSS, React and Redux.</p>
+          <p>Both the mobile apps and web app were powered by the scalable backend that I was Lead Developer of. This
+            was built on top of serverless AWS Lambda microservice architecture (Node.js) running on API gateway.</p>
+          <img src="images/portfolio/hiup.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- hiupModal end -->
+
+  <!-- airBpModal -->
+  <div class="modal fade" id="airBpModal" tabindex="-1" role="dialog" aria-labelledby="airBpModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="airBpModalLabel"><a href="https://www.bp.com/en/global/bp-air.html">Air BP</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>Air BP</p>
+          <img src="images/portfolio/air-bp.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- airBpModal end -->
+
+  <!-- angularTohModal -->
+  <div class="modal fade" id="angularTohModal" tabindex="-1" role="dialog" aria-labelledby="angularTohModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="angularTohModalLabel"><a href="https://github.com/taranchauhan/angular-tour-of-heroes-ngrx">Angular Tour of heroes ngrx</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>Angular Tour of heroes ngrx</p>
+          <img src="images/portfolio/angular-toh-ngrx.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- angularTohModal end -->
+
+  <!-- bpModal -->
+  <div class="modal fade" id="bpModal" tabindex="-1" role="dialog" aria-labelledby="bpModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="bpModalLabel"><a href="https://www.bp.com/">BP</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>BP</p>
+          <img src="images/portfolio/bp.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bpModal end -->
+
+  <!-- castrolModal -->
+  <div class="modal fade" id="castrolModal" tabindex="-1" role="dialog" aria-labelledby="castrolModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="castrolModalLabel"><a href="https://www.castrol.com/">Castrol</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>Castrol</p>
+          <img src="images/portfolio/castrol.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- castrolModal end -->
+
+  <!-- govUkModal -->
+  <div class="modal fade" id="govUkModal" tabindex="-1" role="dialog" aria-labelledby="govUkModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="govUkModalLabel"><a href="https://www.gov.uk/">GOV UK</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>GOV UK</p>
+          <img src="images/portfolio/gov-uk.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- govUkModal end -->
+
+  <!-- govUkReactModal -->
+  <div class="modal fade" id="govUkReactModal" tabindex="-1" role="dialog" aria-labelledby="govUkReactModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="govUkReactModalLabel"><a href="https://ukhomeoffice.github.io/govuk-react">GOV UK React</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>GOV UK React</p>
+          <img src="images/portfolio/govuk-react.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- govUkReactModal end -->
+
+  <!-- govUkFredericModal -->
+  <div class="modal fade" id="govUkFredericModal" tabindex="-1" role="dialog" aria-labelledby="govUkFredericModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="govUkFredericModalLabel"><a href="https://stevesims.github.io/govuk-frederic">GOV UK Frederic</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>GOV UK Frederic</p>
+          <img src="images/portfolio/govuk-frederic.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- govUkFredericModal end -->
+
+  <!-- nexcelModal -->
+  <div class="modal fade" id="nexcelModal" tabindex="-1" role="dialog" aria-labelledby="nexcelModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="nexcelModalLabel"><a href="https://www.nexcel.co.uk/">Nexcel</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>Nexcel</p>
+          <img src="images/portfolio/nexcel.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- nexcelModal end -->
+
+  <!-- oilSelectorModal -->
+  <div class="modal fade" id="oilSelectorModal" tabindex="-1" role="dialog" aria-labelledby="oilSelectorModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="oilSelectorModalLabel"><a href="https://applications.castrol.com/oilselector">Castrol Oil Selector</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>Castrol Oil Selector</p>
+          <img src="images/portfolio/oil_selector.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- oilSelectorModal end -->
+
+  <!-- reactAsyncModal -->
+  <div class="modal fade" id="reactAsyncModal" tabindex="-1" role="dialog" aria-labelledby="reactAsyncModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="reactAsyncModalLabel"><a href="https://github.com/taranchauhan/react-best-practices">React 16 Async loading example</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>React 16 Async loading using fetcher example</p>
+          <img src="images/portfolio/react-best-practices.jpg" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- reactAsyncModal end -->
+
+  <!-- bvbModal -->
+  <div class="modal fade" id="bvbModal" tabindex="-1" role="dialog" aria-labelledby="bvbModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="bvbModalLabel"><a href="https://videocall.barclays.co.uk/barclays-video-banking/index.html?entrypoint=mortgagesales">Barclays Video Banking</a></h4>
+        </div>
+        <div class="modal-body">
+          <p>Barclays Video Banking</p>
+          <img src="images/portfolio/videocall-barclays.png" class="img-responsive" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- bvbModal end -->
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
